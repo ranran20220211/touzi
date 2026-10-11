@@ -1,0 +1,62 @@
+{
+  "macro_module": "中国流动性",
+
+  "rules": [
+
+    {
+      "id": "M001",
+      "name": "10年期国债收益率",
+
+      "value": "1.70%",
+      "trend": "下降",
+
+      "logic": {
+        "positive": "收益率下降，资金成本降低",
+        "negative": "收益率上涨，资金成本增加"
+      },
+
+      "score": 5,
+
+      "status": "改善"
+    },
+
+
+    {
+      "id": "M002",
+      "name": "央行公开市场操作",
+
+      "value": "净投放",
+
+      "trend": "宽松",
+
+      "logic": {
+        "positive": "释放流动性，支持市场资金",
+        "negative": "资金回笼，流动性压力增加"
+      },
+
+      "score": 3,
+
+      "status": "改善"
+    },
+
+
+    {
+      "id": "M003",
+      "name": "DR007",
+
+      "value": "1.80%",
+
+      "trend": "稳定",
+
+      "logic": {
+        "positive": "银行间资金稳定",
+        "negative": "资金紧张"
+      },
+
+      "score": 2,
+
+      "status": "中性"
+    }
+
+  ]
+}
